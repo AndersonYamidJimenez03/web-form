@@ -1,0 +1,90 @@
+/*|| RESET */
+
+*, *::after, *::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+input, textarea, button, select{
+    font-size: inherit;
+}
+
+html{
+    color-scheme: dark light;
+}
+
+
+/* || UTILITY CLASSES */
+.nowrap{
+    white-space: nowrap;
+}
+
+/* || GENERAL STYLES */ 
+body{
+    background-color: rgb(4, 100, 4);
+    font-size: 1rem;
+    min-height: 100vh;
+}
+
+form{
+    max-width: 50vw;
+    margin: 10em auto;
+    background-color: whitesmoke;
+    color: black;
+    padding: 30px 20px;
+    border-radius: 20px;
+}
+
+
+/* || ELEMENTS STYLES */ 
+
+h1{
+    position: absolute;
+    top: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    color: black;
+    font-weight: bolder;
+    font-size: 3em;
+}
+
+.section{
+    margin: 5%;
+    font-size: 2em;
+    font-weight: 500;
+}
+
+label, input, select, textarea, button{
+    display: block;
+    width: 95%;
+    margin:10px auto;
+    border-radius: 5px;
+    padding: 10px;
+    
+}
+
+.comments{
+    text-align: center;
+}
+
+.section input[type="radio"], 
+.section input[type="checkbox"] {
+            display: inline-block;
+            width: auto;
+            transform: scale(250%);
+}
+
+button{
+    background-color: darkgreen;
+    color: black;
+    font-weight: bold;
+
+}
+
+button:hover{
+    cursor:pointer;
+}

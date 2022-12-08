@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Anderson Jimenez">
+    <meta name="description" content="This page is to practice forms">
+    <title>Web Page Form</title>
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+</head>
+<body>
+    <h1>GeeksforGeeks Survey Form</h1>
+    <main>
+        <form action="" method="get">
+
+            <section class="section">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name">
+            </section>
+
+            <section class="section">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email">
+            </section>
+
+            <section class="section">
+                <label for="age">Age</label>
+                <input type="number" id="age" name="age" placeholder="Enter your age">
+            </section>
+
+            <section class="section">
+                <label for="discribes">Which option best discribes you?</label>
+                <select name="discribes" id="discribes">
+                    <option value="student">Student</option>
+                    <option value="teacher">Teacher</option>
+                    <option value="worker">Worker</option>
+                </select>
+            </section>
+
+            <section class="section">
+                <label>Would you recommed GeeksforGeeks to a freind?</label>
+                <label for="yes"><input type="radio" name="freid" id="yes"> Yes</input></label>
+                <label for="no"><input type="radio" name="freid" id="no"> No</label>
+                <label for="maybe"><input type="radio" name="freid" id="maybe"> Maybe</label>
+            </section>
+
+            <section class="section">
+                <label>Languages and Frameworks known(check all apply)</label> 
+                <label for="c"><input type="checkbox" id="c" name="cbx-1"> C</label>
+                <label for="c++"><input type="checkbox" id="c++" name="cbx-2"> C++</label>
+                <label for="c#"><input type="checkbox" id="c#" name="cbx-3"> C#</label>
+                <label for="java"><input type="checkbox" id="java" name="cbx-4"> Java</label>
+                <label for="python"><input type="checkbox" id="python" name="cbx-5"> Python</label>
+                <label for="javascript"><input type="checkbox" id="javascript" name="cbx-6"> JavaScript</label>
+                <label for="react"><input type="checkbox" id="react" name="cbx-7"> React</label>
+                <label for="angular"><input type="checkbox" id="angular" name="cbx-8"> Angular</label>          
+                <label for="django"><input type="checkbox" id="django" name="cbx-9"> Django</label>
+                <label for="spring"><input type="checkbox" id="spring" name="cbx-10"> Spring</label>
+            </section>
+
+            <section class="section">
+                <label for="area" class="comments">Any comments or suggestion</label>
+                <textarea name="area" id="area" cols="30" rows="5"></textarea>
+            </section>
+
+            <section class="section">
+                <button type="submit" value="submit">Submit</button>
+            </section>
+
+        </form>
+    </main>
+</body>
+</html>
